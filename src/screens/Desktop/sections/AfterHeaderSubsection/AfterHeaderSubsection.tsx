@@ -4,7 +4,7 @@ import { Button } from "../../../../components/ui/button";
 export const AfterHeaderSubsection = (): JSX.Element => {
   return (
     <section className="w-full h-[650px] relative -mt1">
-      <div className="w-full h-full bg-cover bg-center" style={{backgroundImage: "url('public/solar-panels-meadow 1.png')",
+      <div className="w-full h-full bg-cover bg-center" style={{backgroundImage: "url('/solar-panels-meadow 1.png')",
         }}>
         <div className="container mx-auto px-4 h-full">
           <div className="relative w-[337px] h-[25px] pt-[69px] ml-[150px]">
