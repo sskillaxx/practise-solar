@@ -17,19 +17,19 @@ export const FrameWrapperSubsection = (): JSX.Element => {
       title: "Off Grid",
       description:
         "WOC has contributed to students so that they can work in their dream company, we will continue to stick to our commitment to create an advanced generation,",
-      image: "public/solar-panels-meadow 2.png",
+      image: "/solar-panels-meadow 2.png",
     },
     {
       title: "On Grid",
       description:
         "WOC has contributed to students so that they can work in their dream company, we will continue to stick to our commitment to create an advanced generation,",
-      image: "public/solar-panels-meadow 3.png",
+      image: "/solar-panels-meadow 3.png",
     },
     {
       title: "Hybrid",
       description:
         "WOC has contributed to students so that they can work in their dream company, we will continue to stick to our commitment to create an advanced generation,",
-      image: "public/solar-panels-meadow 4.png",
+      image: "/solar-panels-meadow 4.png",
     },
   ];
 
@@ -44,25 +44,25 @@ export const FrameWrapperSubsection = (): JSX.Element => {
           <span className="underline">solar greenhouse</span>.
         </>
       ),
-      logo: "public/sunrise.jpg",
+      logo: "/sunrise.jpg",
     },
     {
       title: "BYD - Electrifying Transport",
       description:
         "We use battery cells made by BYD, a market leader in lithium batteries. BYD batteries are in cars, trucks, and buses - they build robust batteries.",
-      logo: "public/sunrise2.jpg",
+      logo: "/sunrise2.jpg",
     },
     {
       title: "Sunsynk - No Power No Problem",
       description:
         "Sunsynk build the most versatile hybrid inverter on the market, designed to take up to 7kW of solar on a standard domestic supply - for simultaneous battery charging and household usage.",
-      logo: "public/sunrise3.jpg",
+      logo: "/sunrise3.jpg",
     },
     {
       title: "REC - Solar's Most Trusted",
       description:
         "REC - Renewable Energy Corporation, are one of the longest trading names in solar. They know how to be truly sustainable in this industry - their panels are 100% lead free and have the most trusted warranty in solar.",
-      logo: "public/sunrise4.jpg",
+      logo: "/sunrise4.jpg",
     },
   ];
 
@@ -71,19 +71,19 @@ export const FrameWrapperSubsection = (): JSX.Element => {
       title: "Customer Care",
       description:
         "We're here to help you with solar panel installation in Devon and Cornwall. If we were to sum ourselves up in a few words, those would be \"reliable, honest and friendly.\" We find our customers agree! We're with you from the start of the project to the finish.",
-      icon: "public/Customer Loyalty.png",
+      icon: "/Customer Loyalty.png",
     },
     {
       title: "Price",
       description:
         "As I'm sure you'll have seen, solar systems don't tend to come cheap. Our aim is to make solar power accessible to everyone, so we price ourselves in a way that makes solar energy more affordable. We're focused on helping you and on helping the environment, rather than on turning a profit.",
-      icon: "public/Price Tag.png",
+      icon: "/Price Tag.png",
     },
     {
       title: "Sustainability",
       description:
         "As we've said, we do this because we truly care about the planet and about seeing people embrace a greener, more eco-friendly approach to power. The world of green energy can be jargon-filled and opaque, so we want to help educate people on the big and little things they can do to protect our planet!",
-      icon: "public/Environment.png",
+      icon: "/Environment.png",
     },
   ];
 
@@ -126,7 +126,7 @@ export const FrameWrapperSubsection = (): JSX.Element => {
           <img
             className="absolute w-[90%] h-[552px] top-0 right-0 object-cover rounded-[40px]"
             alt="Solar installation"
-            src="public/Rectangle 30.png"
+            src="/Rectangle 30.png"
           />
 
           <Card className="flex flex-col w-[266px] items-start gap-7 p-6 absolute top-[292px] left-0 bg-[#ffbb1c] rounded-xl">
@@ -134,7 +134,7 @@ export const FrameWrapperSubsection = (): JSX.Element => {
               <img
                 className="w-[90px] h-[90px]"
                 alt="Solar charging"
-                src="public/Solar Charging.png"
+                src="/Solar Charging.png"
               />
 
               <p className="mt-7 font-['Akazan-Regular'] text-[#2a3334] text-lg tracking-[0.94px]">
@@ -150,7 +150,7 @@ export const FrameWrapperSubsection = (): JSX.Element => {
         <img
           className="w-full h-[505px] object-cover rounded-[35px]"
           alt="Solar panels landscape"
-          src="public/vents.png"
+          src="/vents.png"
         />
 
         <div className="flex flex-col w-full md:w-[678px] items-start justify-center gap-8 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 md:left-[150px] md:translate-x-0 p-6 md:p-0">
@@ -219,7 +219,7 @@ export const FrameWrapperSubsection = (): JSX.Element => {
         <img
           className="w-full h-[505px] object-cover"
           alt="Solar panels landscape"
-          src="public/office.png"
+          src="/office.png"
         />
 
         <Card className="flex flex-col w-[90%] max-w-[858px] items-center justify-center gap-8 p-8 md:p-11 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-[#00000091] rounded-xl backdrop-blur-md">
@@ -249,7 +249,7 @@ export const FrameWrapperSubsection = (): JSX.Element => {
               <img
                 className="w-[78px] h-[78px]"
                 alt="Zap fast"
-                src="public/zaprrr.svg"
+                src="/zaprrr.svg"
               />
             </div>
 
@@ -344,7 +344,7 @@ export const FrameWrapperSubsection = (): JSX.Element => {
       {/* Testimonial Section */}
       <div className="flex flex-col md:flex-row items-center gap-8 px-4 md:px-8 lg:px-[150px] py-20">
         <div className="flex flex-col w-full md:w-[400px] items-start gap-7">
-          <img className="w-[58.33px] h-12" alt="Quote" src="public/quotes.png" />
+          <img className="w-[58.33px] h-12" alt="Quote" src="/quotes.png" />
 
           <h2 className="font-['Inter'] font-bold text-[#1c1c1c] text-3xl md:text-5xl leading-tight">
             what they say about WOC
@@ -384,7 +384,7 @@ export const FrameWrapperSubsection = (): JSX.Element => {
                 <img
                   className="w-[60px] h-[60px] object-cover rounded-full"
                   alt="Resky Fernanda"
-                  src="public/PJq4SKeab8s.jpg"
+                  src="/PJq4SKeab8s.jpg"
                 />
 
                 <div className="flex flex-col items-start gap-[9px]">
@@ -425,7 +425,7 @@ export const FrameWrapperSubsection = (): JSX.Element => {
             <img
               className="w-[185px] h-16 object-cover rounded-[15px]"
               alt="Logo"
-              src="public/sunrise.jpg"
+              src="/sunrise.jpg"
             />
 
             <div className="flex flex-wrap gap-6 md:gap-10">

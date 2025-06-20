@@ -12,7 +12,7 @@ export const AfterHeaderSubsection = (): JSX.Element => {
               <img
                 className="absolute w-[89px] h-1 top-0 left-0"
                 alt="Line"
-                src="public/line-2.png"
+                src="/line-2.png"
               />
             </div>
 
