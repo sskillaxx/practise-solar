@@ -19,7 +19,7 @@ export const FrameSubsection = (): JSX.Element => {
     <header className="flex w-full items-center justify-between px-[150px] py-4 bg-[#0b9586]">
       {/* Logo placeholder */}
       <div className="w-[157px] h-[54px] relative">
-        <img className="w-full h-full object-cover rounded-[15px]"  src="src/components/images/sunrise.jpg" alt="Logo" />
+        <img className="w-full h-full object-cover rounded-[15px]"  src="public/sunrise.jpg" alt="Logo" />
       </div>
 
       {/* Navigation menu */}
